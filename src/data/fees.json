@@ -1,0 +1,525 @@
+{
+  "sources": {
+    "stripe": {
+      "title": "Stripe U.S. pricing",
+      "url": "https://stripe.com/pricing",
+      "lastVerified": "2026-11-23"
+    },
+    "stripeBilling": {
+      "title": "Stripe Billing pricing",
+      "url": "https://stripe.com/billing/pricing",
+      "lastVerified": "2026-11-23"
+    },
+    "shopify": {
+      "title": "Shopify U.S. plans and pricing",
+      "url": "https://www.shopify.com/pricing",
+      "lastVerified": "2026-11-23"
+    },
+    "shopifyCards": {
+      "title": "Shopify Payments U.S. card types",
+      "url": "https://help.shopify.com/en/manual/payments/shopify-payments/transactions/credit-card-rates",
+      "lastVerified": "2026-11-23"
+    },
+    "shopifyCurrency": {
+      "title": "Shopify Payments currency fees",
+      "url": "https://help.shopify.com/en/manual/international/pricing/fees",
+      "lastVerified": "2026-11-23"
+    },
+    "shopifyThirdParty": {
+      "title": "Shopify bills and third-party transaction fees",
+      "url": "https://help.shopify.com/en/manual/your-account/manage-billing/billing-charges/types-of-charges/third-party-charges/third-party-transaction-fees",
+      "lastVerified": "2026-11-23"
+    },
+    "shopifyDisputes": {
+      "title": "Shopify Payments chargeback fees",
+      "url": "https://help.shopify.com/en/manual/payments/chargebacks/chargeback-process",
+      "lastVerified": "2026-11-23"
+    },
+    "squareRates": {
+      "title": "Square U.S. Support processing schedule",
+      "url": "https://squareup.com/help/us/en/article/5068-what-are-square-s-fees",
+      "lastVerified": "2026-11-23"
+    },
+    "squarePlans": {
+      "title": "Square U.S. plan pricing",
+      "url": "https://squareup.com/us/en/pricing",
+      "lastVerified": "2026-11-23"
+    },
+    "paypal": {
+      "title": "PayPal U.S. merchant fees",
+      "url": "https://www.paypal.com/us/business/paypal-business-fees",
+      "lastVerified": "2026-11-23"
+    },
+    "paypalPosTerms": {
+      "title": "PayPal Point of Sale terms",
+      "url": "https://www.paypal.com/us/legalhub/paypal/zettle-tnc",
+      "lastVerified": "2026-11-23"
+    },
+    "visa": {
+      "title": "Visa U.S. interchange · effective October 24, 2026",
+      "url": "https://usa.visa.com/content/dam/VCOM/download/merchants/visa-usa-interchange-reimbursement-fees.pdf",
+      "lastVerified": "2026-11-23"
+    },
+    "mastercard": {
+      "title": "Mastercard U.S. interchange · effective April 17, 2026",
+      "url": "https://www.mastercard.com/content/dam/mccom/us/business/documents/merchant-rates-2026-2027-april2026.pdf",
+      "lastVerified": "2026-11-23"
+    },
+    "assessment": {
+      "title": "Wells Fargo payment-network fee examples",
+      "url": "https://cdn.ymaws.com/csmfo.org/resource/resmgr/2025_conference/presentations/Understanding_Merchant_Servi.pdf",
+      "lastVerified": "2026-11-23"
+    },
+    "settlement": {
+      "title": "Court-authorized equitable relief settlement site",
+      "url": "https://www.interchangeequitablereliefsettlement.com/en-US",
+      "lastVerified": "2026-11-23"
+    },
+    "visaSettlement": {
+      "title": "Visa statement on the proposed settlement",
+      "url": "https://corporate.visa.com/en/sites/visa-perspectives/company-news/visa-statement-mdl-settlement.html",
+      "lastVerified": "2026-11-23"
+    },
+    "cornerPost": {
+      "title": "Eighth Circuit opinion in Corner Post",
+      "url": "https://ecf.ca8.uscourts.gov/opndir/26/10/253000P.pdf",
+      "lastVerified": "2026-11-23"
+    }
+  },
+  "stripe": {
+    "online": {
+      "pct": 0.029,
+      "fixed": 0.3,
+      "title": "Stripe · online domestic cards",
+      "source": "stripe"
+    },
+    "pos": {
+      "pct": 0.027,
+      "fixed": 0.05,
+      "title": "Stripe Terminal · domestic cards",
+      "source": "stripe"
+    },
+    "bank": {
+      "pct": 0.026,
+      "fixed": 0.3,
+      "title": "Stripe Instant Bank Payments",
+      "source": "stripe"
+    },
+    "international": {
+      "pct": 0.015,
+      "fixed": 0,
+      "title": "Stripe · international cards",
+      "source": "stripe"
+    },
+    "fx": {
+      "pct": 0.01,
+      "fixed": 0,
+      "title": "Stripe · currency conversion (online)",
+      "source": "stripe"
+    },
+    "tap": {
+      "amount": 0.1,
+      "title": "Stripe Tap to Pay · per authorization",
+      "source": "stripe"
+    },
+    "billing": {
+      "pct": 0.007,
+      "fixed": 0,
+      "title": "Stripe Billing · pay as you go",
+      "source": "stripeBilling"
+    },
+    "dispute": {
+      "amount": 15,
+      "title": "Stripe · disputes received",
+      "source": "stripe"
+    }
+  },
+  "shopify": {
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "month": {
+          "amount": 39,
+          "title": "Shopify Basic · monthly term",
+          "source": "shopify"
+        },
+        "year": {
+          "amount": 29,
+          "title": "Shopify Basic · yearly term (monthly equivalent)",
+          "source": "shopify"
+        },
+        "online": {
+          "pct": 0.029,
+          "fixed": 0.3,
+          "title": "Shopify Basic · standard online cards",
+          "source": "shopify"
+        },
+        "premium": {
+          "pct": 0.035,
+          "fixed": 0.3,
+          "title": "Shopify Basic · premium online cards",
+          "source": "shopify"
+        },
+        "pos": {
+          "pct": 0.026,
+          "fixed": 0.1,
+          "title": "Shopify Basic · in-person cards",
+          "source": "shopify"
+        },
+        "third": {
+          "pct": 0.02,
+          "fixed": 0,
+          "title": "Shopify Basic · third-party online orders",
+          "source": "shopify"
+        }
+      },
+      "grow": {
+        "name": "Grow",
+        "month": {
+          "amount": 105,
+          "title": "Shopify Grow · monthly term",
+          "source": "shopify"
+        },
+        "year": {
+          "amount": 79,
+          "title": "Shopify Grow · yearly term (monthly equivalent)",
+          "source": "shopify"
+        },
+        "online": {
+          "pct": 0.027,
+          "fixed": 0.3,
+          "title": "Shopify Grow · standard online cards",
+          "source": "shopify"
+        },
+        "premium": {
+          "pct": 0.033,
+          "fixed": 0.3,
+          "title": "Shopify Grow · premium online cards",
+          "source": "shopify"
+        },
+        "pos": {
+          "pct": 0.025,
+          "fixed": 0.1,
+          "title": "Shopify Grow · in-person cards",
+          "source": "shopify"
+        },
+        "third": {
+          "pct": 0.01,
+          "fixed": 0,
+          "title": "Shopify Grow · third-party online orders",
+          "source": "shopify"
+        }
+      },
+      "advanced": {
+        "name": "Advanced",
+        "month": {
+          "amount": 399,
+          "title": "Shopify Advanced · monthly term",
+          "source": "shopify"
+        },
+        "year": {
+          "amount": 299,
+          "title": "Shopify Advanced · yearly term (monthly equivalent)",
+          "source": "shopify"
+        },
+        "online": {
+          "pct": 0.025,
+          "fixed": 0.3,
+          "title": "Shopify Advanced · standard online cards",
+          "source": "shopify"
+        },
+        "premium": {
+          "pct": 0.031,
+          "fixed": 0.3,
+          "title": "Shopify Advanced · premium online cards",
+          "source": "shopify"
+        },
+        "pos": {
+          "pct": 0.024,
+          "fixed": 0.1,
+          "title": "Shopify Advanced · in-person cards",
+          "source": "shopify"
+        },
+        "third": {
+          "pct": 0.006,
+          "fixed": 0,
+          "title": "Shopify Advanced · third-party online orders",
+          "source": "shopify"
+        }
+      }
+    },
+    "keyed": {
+      "pct": 0.035,
+      "fixed": 0.1,
+      "title": "Shopify · manually entered POS cards",
+      "source": "shopify"
+    },
+    "international": {
+      "pct": 0.01,
+      "fixed": 0,
+      "title": "Shopify · international online cards",
+      "source": "shopify"
+    },
+    "fx": {
+      "pct": 0.015,
+      "fixed": 0,
+      "title": "Shopify · U.S. currency conversion (online)",
+      "source": "shopifyCurrency"
+    },
+    "posPro": {
+      "amount": 89,
+      "title": "Shopify POS Pro · per location/month billed yearly",
+      "source": "shopify"
+    },
+    "dispute": {
+      "amount": 15,
+      "title": "Shopify Payments · U.S. chargebacks",
+      "source": "shopifyDisputes"
+    }
+  },
+  "square": {
+    "plans": {
+      "free": {
+        "name": "Free",
+        "plan": {
+          "amount": 0,
+          "title": "Square Free · per location/month",
+          "source": "squarePlans"
+        },
+        "online": {
+          "pct": 0.033,
+          "fixed": 0.3,
+          "title": "Square Free · Online or invoices",
+          "source": "squareRates"
+        },
+        "pos": {
+          "pct": 0.026,
+          "fixed": 0.15,
+          "title": "Square Free · tap, dip or swipe",
+          "source": "squareRates"
+        }
+      },
+      "plus": {
+        "name": "Plus",
+        "plan": {
+          "amount": 49,
+          "title": "Square Plus · per location/month",
+          "source": "squarePlans"
+        },
+        "online": {
+          "pct": 0.029,
+          "fixed": 0.3,
+          "title": "Square Plus · Online or invoices",
+          "source": "squareRates"
+        },
+        "pos": {
+          "pct": 0.025,
+          "fixed": 0.15,
+          "title": "Square Plus · tap, dip or swipe",
+          "source": "squareRates"
+        }
+      },
+      "premium": {
+        "name": "Premium",
+        "plan": {
+          "amount": 149,
+          "title": "Square Premium · per location/month",
+          "source": "squarePlans"
+        },
+        "online": {
+          "pct": 0.029,
+          "fixed": 0.3,
+          "title": "Square Premium · Online or invoices",
+          "source": "squareRates"
+        },
+        "pos": {
+          "pct": 0.024,
+          "fixed": 0.15,
+          "title": "Square Premium · tap, dip or swipe",
+          "source": "squareRates"
+        }
+      }
+    },
+    "api": {
+      "pct": 0.029,
+      "fixed": 0.3,
+      "title": "Square · online API",
+      "source": "squareRates"
+    },
+    "keyed": {
+      "pct": 0.035,
+      "fixed": 0.15,
+      "title": "Square · manual entry or card on file",
+      "source": "squareRates"
+    },
+    "international": {
+      "pct": 0.015,
+      "fixed": 0,
+      "title": "Square · international cards",
+      "source": "squareRates"
+    },
+    "dispute": {
+      "amount": 0,
+      "title": "Square · disputes and chargebacks",
+      "source": "squareRates"
+    }
+  },
+  "paypal": {
+    "products": {
+      "checkout": {
+        "pct": 0.0349,
+        "fixed": 0.49,
+        "title": "PayPal Checkout · PayPal, Venmo and guest checkout",
+        "source": "paypal"
+      },
+      "standard": {
+        "pct": 0.0299,
+        "fixed": 0.49,
+        "title": "PayPal · standard card payments",
+        "source": "paypal"
+      },
+      "advanced": {
+        "pct": 0.0289,
+        "fixed": 0.49,
+        "title": "PayPal · advanced cards (flat rate)",
+        "source": "paypal"
+      }
+    },
+    "pos": {
+      "pct": 0.0229,
+      "fixed": 0.09,
+      "title": "PayPal POS · card-present and QR",
+      "source": "paypal"
+    },
+    "keyed": {
+      "pct": 0.0349,
+      "fixed": 0.09,
+      "title": "PayPal POS · manually entered cards",
+      "source": "paypal"
+    },
+    "international": {
+      "pct": 0.015,
+      "fixed": 0,
+      "title": "PayPal · international online payments",
+      "source": "paypal"
+    },
+    "dispute": {
+      "amount": 15,
+      "title": "PayPal · standard USD dispute fee",
+      "source": "paypal"
+    },
+    "chargeback": {
+      "amount": 20,
+      "title": "PayPal · USD chargeback fee when applicable",
+      "source": "paypal"
+    }
+  },
+  "interchange": {
+    "regulated": {
+      "pct": 0.0005,
+      "fixed": 0.21,
+      "title": "Regulated debit · published schedule benchmark",
+      "source": "visa"
+    },
+    "fraudAdjustment": {
+      "amount": 0.01,
+      "title": "Eligible issuer fraud-prevention adjustment",
+      "source": "visa"
+    },
+    "visa": {
+      "consumer": {
+        "online": {
+          "pct": 0.0189,
+          "fixed": 0.1,
+          "title": "Visa · online consumer credit",
+          "source": "visa"
+        },
+        "pos": {
+          "pct": 0.0151,
+          "fixed": 0.1,
+          "title": "Visa · in-person consumer credit",
+          "source": "visa"
+        }
+      },
+      "commercial": {
+        "online": {
+          "pct": 0.0265,
+          "fixed": 0.1,
+          "title": "Visa · online business credit",
+          "source": "visa"
+        },
+        "pos": {
+          "pct": 0.019,
+          "fixed": 0.1,
+          "title": "Visa · in-person business credit",
+          "source": "visa"
+        }
+      },
+      "exempt": {
+        "online": {
+          "pct": 0.0065,
+          "fixed": 0.15,
+          "title": "Visa · online exempt consumer debit",
+          "source": "visa",
+          "cap": 2
+        },
+        "pos": {
+          "pct": 0.008,
+          "fixed": 0.15,
+          "title": "Visa · in-person exempt consumer debit",
+          "source": "visa"
+        }
+      }
+    },
+    "mastercard": {
+      "consumer": {
+        "online": {
+          "pct": 0.0195,
+          "fixed": 0.1,
+          "title": "Mastercard · online consumer credit",
+          "source": "mastercard"
+        },
+        "pos": {
+          "pct": 0.0165,
+          "fixed": 0.1,
+          "title": "Mastercard · in-person consumer credit",
+          "source": "mastercard"
+        }
+      },
+      "commercial": {
+        "online": {
+          "pct": 0.0265,
+          "fixed": 0.1,
+          "title": "Mastercard · online business credit",
+          "source": "mastercard"
+        },
+        "pos": {
+          "pct": 0.019,
+          "fixed": 0.1,
+          "title": "Mastercard · in-person business credit",
+          "source": "mastercard"
+        }
+      },
+      "exempt": {
+        "online": {
+          "pct": 0.0165,
+          "fixed": 0.15,
+          "title": "Mastercard · online exempt consumer debit",
+          "source": "mastercard"
+        },
+        "pos": {
+          "pct": 0.0105,
+          "fixed": 0.15,
+          "title": "Mastercard · in-person exempt consumer debit",
+          "source": "mastercard"
+        }
+      }
+    },
+    "assessment": {
+      "pct": 0.00135,
+      "fixed": 0,
+      "title": "Illustrative network assessment · editable",
+      "source": "assessment"
+    }
+  }
+}
